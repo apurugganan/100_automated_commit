@@ -13,3 +13,6 @@ This is me messing around with bash and I wanted to see if I can automate git co
 
 ## Next Feature
 I'll be looking into adding a feature where you can determine how many times it will make commits.
+
+## More Notes:
+- changed permission on files
