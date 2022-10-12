@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 echo "program starts"
-read -ep "Enter month (YYYY): " year
-read -ep "Enter month (MM): " month 
-read -ep "Enter month (DD): " day 
+read -ep "Enter a year or not(YYYY): " year
+read -ep "Enter a month or not(MM): " month 
+read -ep "Enter a day or not(DD): " day 
 
 #  no entered values for date
 if [[ -z $year ]] 
@@ -20,8 +20,6 @@ if [[ -z $day ]]
 then 
   day=`date +%d`
 fi 
-
-echo "$year-$month-$day"
 
 # make a record
 if [[ ! -d ./record ]]
